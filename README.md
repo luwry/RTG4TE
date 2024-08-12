@@ -2,10 +2,8 @@
 Source code for the paper: Retrieval-enhanced Template Generation for Template Extraction (NLPCC 2024)
 
 ## Overview
-
-![an example](./figs/an example.png)
+<img src=figs/an-example.png width="800">
 An example of template extraction. A generic template is extracted for document-level REE task. Two event templates including an `Attack` event template and a `Bombing` event template are extracted for TF task.
-
 All the required packages are listed in `requirements.txt`. To install all the dependencies, run
 
 ```
