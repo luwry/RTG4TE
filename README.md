@@ -3,7 +3,7 @@ Source code for the paper: Retrieval-enhanced Template Generation for Template E
 
 ## Overview
 
-![example](./figs/an example.png)
+![an example](./figs/an example.png)
 An example of template extraction. A generic template is extracted for document-level REE task. Two event templates including an `Attack` event template and a `Bombing` event template are extracted for TF task.
 
 All the required packages are listed in `requirements.txt`. To install all the dependencies, run
