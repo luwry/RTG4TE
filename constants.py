@@ -1,0 +1,22 @@
+SEP_T = '<SEP_T>'
+SEP = '<SEP>'
+END_OF_SEP = '</SEP>'
+PERP_IND='<PerpInd>'
+END_OF_PERP_IND='</PerpInd>'
+PERP_ORG='<PerpOrg>'
+END_OF_PERP_ORG='</PerpOrg>'
+TARGET='<Target>'
+END_OF_TARGET='</Target>'
+VICTIM='<Victim>'
+END_OF_VICTIM='</Victim>'
+WEAPON='<Weapon>'
+END_OF_WEAPON='</Weapon>'
+AND = "[and]"
+NO_ROLE = "[None]"
+
+ROLES = [SEP_T, SEP, END_OF_SEP, PERP_IND, END_OF_PERP_IND, PERP_ORG, END_OF_PERP_ORG, TARGET, END_OF_TARGET, VICTIM, END_OF_VICTIM, WEAPON, END_OF_WEAPON, AND, NO_ROLE]
+# these variables are for decoding
+SLOT_NAME_TAG=0
+ENTITY_TAG=1
+
+ROLE_FILLER_ENTITY_EXTRACTION='ree'
