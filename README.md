@@ -4,11 +4,20 @@ Source code for the paper: Retrieval-enhanced Template Generation for Template E
 ## Overview
 <img src=figs/an-example.png width="800">
 An example of template extraction. A generic template is extracted for document-level REE task. Two event templates including an `Attack` event template and a `Bombing` event template are extracted for TF task.
-All the required packages are listed in `requirements.txt`. To install all the dependencies, run
 
-```
-pip install -r requirements.txt
-```
+## Requirements
+
+- python==3.7.16
+- transformers==4.6.0
+- pandas==1.2.3
+- omegaconf==2.0.6
+- torch==1.7.0
+- sentence-transformers==2.2.0
+- sentencepiece==0.1.95
+- scipy==1.6.1
+- spacy==3.0.0
+- spacy-legacy==3.0.12
+- nltk==3.5
 
 
 ## Data
